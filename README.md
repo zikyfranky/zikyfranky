@@ -1,6 +1,6 @@
 # Hello there, I'm Isaac Frank! :hand: :computer:
 
-<!-- <img src="./header.png"> -->
+<img src="./header.png">
 
 I'm a fullstack developer. I love sharing what I know through [my channel](https://youtube.com/IsaacFrank). You'll also find me on [Twitter](https://twitter.com/zikyfranky). If you want to learn more about what I do, look at all the [awesome things](https://github.com/zikyfranky?tab=repositories) I'm building to make people's lives better. 💖
 [![Twitter: Isaac Frank](https://img.shields.io/twitter/follow/Zikyfranky?style=social)](https://twitter.com/Zikyfranky)
@@ -13,8 +13,8 @@ I'm a fullstack developer. I love sharing what I know through [my channel](https
 
 ## Find me on the internet :earth_africa:
 
-- Tweeting on <a href="https://twitter.com/zikyfranky"target="_blank">Twitter</a>
-- Trying to make connections on <a href="https://www.linkedin.com/in/zikyfranky"target="_blank">Linkedin</a>
-- Creating repositories and reading the code of others here at <a href="https://github.com/Zikyfranky"target="_blank">Github</a>
-- Making helpful videos on <a href="https://www.youtube.com/IsaacFrank" target="_blank">YouTube</a>
+- Tweeting on [Twitter](https://twitter.com/zikyfranky)</a>
+- Trying to make connections on [Linkedin](https://www.linkedin.com/in/zikyfranky)
+- Creating repositories and reading the code of others here at [Github](https://github.com/Zikyfranky)
+- Making helpful videos on [YouTube](https://www.youtube.com/IsaacFrank)
 - Send me a mail :mailbox: at : masturisaacfrank@gmail.com
