@@ -21,7 +21,9 @@
   },
   "homepage": "https://github.com/zikyfranky/zikyfranky#readme",
   "dependencies": {
+    "fs": "0.0.1-security",
     "jssoup": "0.0.12",
+    "path": "^0.12.7",
     "request": "^2.88.2"
   }
 }
