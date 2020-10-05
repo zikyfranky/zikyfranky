@@ -1,6 +1,6 @@
 # Hello there, I'm Isaac Frank! :hand: :computer:
 
-<!-- <img src=""> -->
+<!-- <img src="./header.png"> -->
 
 I'm a fullstack developer. I love sharing what I know through [my channel](https://youtube.com/IsaacFrank). You'll also find me on [Twitter](https://twitter.com/zikyfranky). If you want to learn more about what I do, look at all the [awesome things](https://github.com/zikyfranky?tab=repositories) I'm building to make people's lives better. 💖
 [![Twitter: Isaac Frank](https://img.shields.io/twitter/follow/Zikyfranky?style=social)](https://twitter.com/Zikyfranky)
