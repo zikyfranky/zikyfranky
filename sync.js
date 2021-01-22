@@ -12,20 +12,7 @@ const sync = async () => {
     "https://www.youtube.com/c/IsaacFrank/videos",
     (err, res, html) => {
       let soup = new JSSoup(html);
-      let scriptContent = soup.find("body").findAll("script")[1].contents[0]
-        ._text;
-
-      scriptContent = scriptContent.replace(`window["ytInitialData"] = `, "");
-      scriptContent = scriptContent.replace(
-        `window["ytInitialPlayerResponse"] = null;`,
-        ""
-      );
-      scriptContent = scriptContent.replace(`if (window.ytcsi) {`, "");
-      scriptContent = scriptContent.replace(`;`, "");
-      scriptContent = scriptContent.replace(
-        `window.ytcsi.tick("pdr", null, '');}`,
-        ""
-      );
+      let scriptContent = soup.find("body").findAll("script")[8].text.slice(20, -1);
       let allTabs = JSON.parse(scriptContent).contents
         .twoColumnBrowseResultsRenderer.tabs;
 
