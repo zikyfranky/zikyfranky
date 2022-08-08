@@ -10,6 +10,8 @@ const profile = {
 };
 ```
 
+[![Sync](https://github.com/zikyfranky/zikyfranky/actions/workflows/sync.yaml/badge.svg)](https://github.com/zikyfranky/zikyfranky/actions/workflows/sync.yaml)
+
 ## **Skills**
 
 ![image](https://img.shields.io/badge/React-000000?style=for-the-badge&logo=react&logoColor=white)
