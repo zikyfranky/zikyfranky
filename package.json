@@ -1,29 +1,29 @@
 {
-  "name": "github-profile",
-  "description": "A simple display on github",
-  "version": "1.0.0",
-  "author": "Isaac Frank",
-  "scripts": {
-    "sync": "node sync.js"
-  },
-  "main": "sync.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/zikyfranky/zikyfranky.git"
-  },
-  "keywords": [
-    "portfolio",
-    "mini"
-  ],
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/zikyfranky/zikyfranky/issues"
-  },
-  "homepage": "https://github.com/zikyfranky/zikyfranky#readme",
-  "dependencies": {
-    "axios": "^0.21.1",
-    "dotenv": "^10.0.0",
-    "fs": "0.0.1-security",
-    "path": "^0.12.7"
-  }
+	"name": "github-profile",
+	"description": "A simple display on github",
+	"version": "1.0.0",
+	"author": "Isaac Frank",
+	"scripts": {
+		"sync": "node sync.js"
+	},
+	"main": "sync.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/zikyfranky/zikyfranky.git"
+	},
+	"keywords": [
+		"portfolio",
+		"mini"
+	],
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/zikyfranky/zikyfranky/issues"
+	},
+	"homepage": "https://github.com/zikyfranky/zikyfranky#readme",
+	"dependencies": {
+		"axios": "^0.21.1",
+		"dotenv": "^10.0.0",
+		"fs": "0.0.1-security",
+		"path": "^0.12.7"
+	}
 }

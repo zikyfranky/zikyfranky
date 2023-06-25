@@ -14,10 +14,9 @@ const getUploadVideos = async () => {
   };
 
   const API_KEY = process.env.API_KEY;
-  const UPLOAD_ID = "UUiRPKet-kWNqoBjbse7WD2g"
+  const UPLOAD_ID = "UUiRPKet-kWNqoBjbse7WD2g";
 
-  const url =
-    `https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet&playlistId=${UPLOAD_ID}&key=${API_KEY}`;
+  const url = `https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet&playlistId=${UPLOAD_ID}&key=${API_KEY}`;
 
   const { data } = await axios.get(url, {}, config);
   const { items } = data;
@@ -35,14 +34,14 @@ const updateREADME = async () => {
   );
 
   updatedREADME += videosResponse.reduce((accumulator, current) => {
-    console.log(accumulator, current);
     const { snippet } = current;
-    const { title } = snippet;
-    const { resourceId } = snippet;
+    const { title, resourceId } = snippet;
     const { videoId } = resourceId;
     const link = `https://youtu.be/${videoId}`;
 
-    return `${accumulator} - [${title}](${link})\n`;
+    let listItem = `<li><a href="${link}">${title}</a></li>`;
+
+    return `${accumulator} ${listItem}\n`;
   }, "\n\n");
 
   writeFileSync(README, updatedREADME);
