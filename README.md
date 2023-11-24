@@ -69,16 +69,22 @@
     <div>
       <h2>GITHUB STATS</h2>
     </div>
+	<div>
+      <img
+        src="https://github-contributor-stats.vercel.app/api?username=zikyfranky&limit=5&theme=dark&combine_all_yearly_contributions=true"
+        alt="public-stats"
+      />
+	  </div>
     <div>
       <img
         src="https://github-readme-stats.vercel.app/api?username=zikyfranky&theme=tokyonight"
         alt="stats"
-        width="45%"
+        width="48%"
       />
       <img
         src="https://github-readme-stats.vercel.app/api/top-langs/?username=zikyfranky&layout=compact&theme=tokyonight"
         alt="stats"
-        width="45%"
+        width="48%"
       />
     </div>
   </div>
@@ -127,6 +133,36 @@
           src="https://img.shields.io/badge/Github-4078c0?style=for-the-badge&logo=git&logoColor=white"
         />
       </a>
+    </div>
+  </div>
+  <div align="center">
+    <div>
+      <h2>DONATIONS</h2>
+    </div>
+    <div>
+      <a href="https://buymeacoffee.com/zikyfranky">
+        <img
+          src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black"
+        />
+      </a>
+      <!-- <a href="https://paypal.me/zikyfranky">
+        <img
+          src="https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white"
+        />
+      </a> -->
+      <a href="https://patreon.com/zikyfranky">
+        <img
+          src="https://img.shields.io/badge/Patreon-F96854?style=for-the-badge&logo=patreon&logoColor=white"
+        />
+      </a>
+    </div>
+  </div>
+  <div align="center">
+    <div>
+      <h2>😂 Random Dev Meme</h2>
+    </div>
+    <div>
+	  <img src='https://randommeme-five.vercel.app/' style="height: 400px;"/>
     </div>
   </div>
   <div>
